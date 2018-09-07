@@ -1,0 +1,24 @@
+{
+    "name": "devuelving/gls-php-sdk",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DT Tecnologia",
+            "email": "admin@dttecnologia.com"
+        },
+        {
+            "name": "David Cortés",
+            "email": "dacoto@dacoto.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "devuelving\\GLS\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
